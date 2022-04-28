@@ -7,6 +7,7 @@ defineProps<{ msg: string }>()
   <div class="text-center">
     <router-link class="mx-3" to="/foo">Foo</router-link>
     <router-link class="mx-3" to="/bar">Bar</router-link>
+    <router-link class="mx-3" to="/code-organization">代码组织</router-link>
   </div>
 </template>
 
