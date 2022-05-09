@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server:ws": "tsc server/webSocktServer.ts && node server/webSocktServer.js"
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "ws": "^8.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.0",

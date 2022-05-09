@@ -26,6 +26,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'Bar',
         component: () => import('../views/bar/index.vue'),
       },
+      {
+        path: '/websocket',
+        name: 'Websocket',
+        component: () => import('../views/websocket/index.vue'),
+      },
     ]
   },
 ]
