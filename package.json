@@ -9,6 +9,7 @@
     "server:ws": "tsc server/webSocktServer.ts && node server/webSocktServer.js"
   },
   "dependencies": {
+    "echarts": "^5.3.2",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",
     "ws": "^8.6.0"
