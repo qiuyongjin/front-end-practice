@@ -31,11 +31,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'Websocket',
         component: () => import('../views/websocket/index.vue'),
       },
-      {
+      /*{
         path: '/echarts',
         name: 'ECharts',
         component: () => import('../views/echarts/index.vue'),
-      },
+      },*/
     ]
   },
 ]
